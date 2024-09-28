@@ -66,6 +66,11 @@ section {
     height: 200px;
 }
 
+.profile-pic:hover {
+    transition: 0.4s ease;
+    transform: scale(1.08);
+}
+
 
 .about-text h2 {
     font-size: 2em;
@@ -110,7 +115,6 @@ section {
     font-size: 18px;
 }
 
-
 .skills-container {
     display: flex;
     align-items: center;
@@ -122,6 +126,11 @@ section {
     width: 450px;
     height: auto;
     border-radius: 10px;
+}
+
+.skills-image img:hover {
+    transition: 0.4s ease;
+    transform: scale(1.08);
 }
 
 .skills-list {
@@ -155,6 +164,11 @@ section {
     
 }
 
+.set:hover {
+    transition: .4s ease;
+    transform: scale(1.3);
+}
+
 #contact p {
     font-size: 1.1em;
 }
@@ -172,6 +186,11 @@ section {
     border-radius: 2%;
     height: 400px;
     width: 400px;
+}
+
+.specific-section:hover {
+    transition: 0.4s ease;
+    transform: scale(1.05);
 }
 
 .image-container {
