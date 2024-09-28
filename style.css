@@ -100,7 +100,13 @@ section {
     height: .1;
 }
 
+.txt p {
+    font-size: 22px;
+    letter-spacing: 1px;
+}
+
 .txt p2{
+    font-weight: normal;
     font-size: 18px;
 }
 
@@ -133,11 +139,20 @@ section {
 .skills-list ul li {
     text-align: start;
     margin-left: 80px;
-  }
+}
 
 #projects p {
     font-size: 1.2em;
     color: #ffdb4d;
+}
+
+.set {
+    height: 50PX;
+    width: 50px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    
 }
 
 #contact p {
@@ -198,5 +213,25 @@ section h2 {
     border-bottom: 2px solid #4CAF50;
     display: inline-block;
     padding-bottom: 5px;
+}
+
+.hmm {
+    /* background-color: #333; */
+    color: rgb(16, 16, 16);
+    padding: 9px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.8rem;
+    font-style: italic;
+    text-align: center;
+}
+
+.hmm2 {
+    font-weight: bold;
+    color: rgb(14, 146, 5);
+    text-decoration: none;
+    padding: 9px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 0.6rem;
+    text-align: center;
 }
 
