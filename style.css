@@ -20,9 +20,15 @@ header {
 
 nav {
     position: fixed; /* Fix the navigation bar at the top */
+<<<<<<< HEAD
     padding: 20px;
     top: 0; /* Set it to the top of the page */
     left: 0; /* Align it to the left edge */
+=======
+    padding: 14.9px;
+    top: 4px; 
+    left: 0; 
+>>>>>>> cc7a3f0 (fix errors)
     width: 100%; /* Make it span the full width */
     background-color: #333; /* Background color for the nav bar */
     color: white; /* Text color */
@@ -265,4 +271,3 @@ section h2 {
     font-size: 0.6rem;
     text-align: center;
 }
-
