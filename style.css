@@ -14,26 +14,20 @@ body {
 header {
     background-color: #333;
     color: white;
-    padding: 30px;
+    padding: 26px;
     text-align: center;
 }
 
 nav {
-    position: fixed; /* Fix the navigation bar at the top */
-<<<<<<< HEAD
-    padding: 20px;
-    top: 0; /* Set it to the top of the page */
-    left: 0; /* Align it to the left edge */
-=======
-    padding: 14.9px;
-    top: 4px; 
+    position: fixed;
+    padding: 14px;
+    top: 0; 
     left: 0; 
->>>>>>> cc7a3f0 (fix errors)
-    width: 100%; /* Make it span the full width */
-    background-color: #333; /* Background color for the nav bar */
-    color: white; /* Text color */
-    z-index: 1000; /* Ensure it stays above other elements */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow for visual appeal */
+    width: 100%; 
+    background-color: #333;
+    color: white; 
+    z-index: 1000; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
 }
 
 nav ul {
