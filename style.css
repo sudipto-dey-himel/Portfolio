@@ -219,6 +219,15 @@ section {
     width: 300px;
 }
 
+.problem-solving-container {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    gap: 20px;
+    justify-content: center;
+}
+
 .hehe {
     font-family: 'Times New Roman', Times, serif;
     color: rgb(179, 176, 176);
@@ -266,20 +275,25 @@ section h2 {
     text-align: center;
 }
 
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 600px) {
+    /* Navigation Menu in Column */
     nav ul {
         flex-direction: column;
         align-items: center;
-        gap: 0px;
+        gap: 10px;  /* Increase spacing */
+        width: 100%;
+        padding: 10px 0;
     }
 
-    .about-container, .skills-container {
+    /* Ensure All Sections Stack in Column */
+    .about-container, 
+    .skills-container, 
+    .problem-solving-container {
         flex-direction: column;
         text-align: center;
-    }
-
-    .skills-list ul {
-        padding-left: 0;
+        align-items: center;  /* Center align */
+        width: 100%;
     }
 }
+
 
