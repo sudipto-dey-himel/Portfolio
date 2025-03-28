@@ -275,23 +275,22 @@ section h2 {
     text-align: center;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 780px) {
     /* Navigation Menu in Column */
     nav ul {
         flex-direction: column;
         align-items: center;
-        gap: 10px;  /* Increase spacing */
+        gap: 5px;
         width: 100%;
         padding: 10px 0;
     }
 
-    /* Ensure All Sections Stack in Column */
     .about-container, 
     .skills-container, 
     .problem-solving-container {
         flex-direction: column;
         text-align: center;
-        align-items: center;  /* Center align */
+        align-items: center;  
         width: 100%;
     }
 }
